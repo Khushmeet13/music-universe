@@ -28,6 +28,8 @@ export function UniverseCanvas() {
           <Vignette eskil={false} offset={0.3} darkness={0.6} />
           <ChromaticAberration
             offset={new Vector2(0.0005, 0.0005)}
+            radialModulation={false}
+            modulationOffset={0}
           />
         </EffectComposer>
       </Suspense>
